@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+
+<body>
+    <p id="display1"> </p>
+    
+    <p id="display2"> </p>
+    
+    <p id="display3"> </p>
+    <script>
+        
+        var sum;
+        function addnumber(a,b){
+            var c;
+            c=a+b;
+            return c;
+        }
+        function multipliNumber(x,y){
+            var z;
+            z=x*y;
+            return z;
+        }
+        function division(q,w){
+            var e;
+            e=q/w;
+            return e;
+        }
+        sum=addnumber(7,8);
+        mul=multipliNumber(2,8);
+        div=division(10,2);
+        document.getElementById("display1").innerHTML=sum;
+        document.getElementById("display2").innerHTML=mul;
+        document.getElementById("display3").innerHTML = div;
+    </script>
+    </body>
+</html>
